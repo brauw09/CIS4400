@@ -36,22 +36,26 @@ Provide a brief description of the problem you're addressing. Include any backgr
     - Enhanced decision-making capabilities
 
 ### 2. Business Requirements
-- List the high-level business goals and objectives the project aims to achieve.
-- Example:
-  - Reduce operational costs
-  - Improve data accessibility for decision-makers
+- List the high-level business goals and objectives the project aims to achieve
+ 	Can I have the avg, median price for each county
+	Can I have the avg, medium price for each neighborhood (zipCode)
+	We are only going to look at the Florida State
 
 ### 3. Functional Requirements
-- List the functional requirements for the project, detailing the core features and actions.
-- Example:
-  - System must allow users to query and analyze data
-  - Data entry form must support multiple input types
+We will use a PowerBI which will allow us to select
+- 	See then number of transactions per county take into account the year
+	See the number transaction per zip code take into account the year
+	Avg, median price for each county  take into account the year 
+	Avg median price for each zip code take into account the year
+We will have two maps 
+	1) with all the county the numbers mentioned above meaning (number of transactions, avg, median)
+	2) with all the zipcode with the number of transaction and the avg median 
+We will be using a proper chart for that
 
 ### 4. Data Requirements
-- Outline the types and sources of data required for the project.
-- Example:
-  - Structured data from internal databases
-  - Unstructured data from external sources (e.g., social media, surveys)
+Outline the types and sources of data required for the project.
+	https://www.dolthub.com/repositories/dolthub/us-housing-price...
+ 
 
 ## C. Architecture
 
