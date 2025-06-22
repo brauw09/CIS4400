@@ -14,17 +14,24 @@ to explore and analyze home purchase data based on their priorities, facilitatin
 - Business Personas
   - Roles
     - Data Analyst: Responsible for data analysis and reporting.
-    - Leader: Make sure all business goals are met.
     - Homebuyer
     - Dashboard Developer: Design the dashboard in PowerBI
+    - IT Project Manager: Overseas warehouse implementation.
+    - Data Warehouse Specialist: Implements and manages the warehouse 
+    - Big Data Specialist: Manages the big data technologies such as the Microsoft ecosystem 
 
 - Risks
   - Identify potential risks and challenges.
-   - Incomplete data 
-   - Data inconsistency 
+    - Incomplete data 
+    - Data inconsistency 
+    - Cybersecurity concerns 
+    - Can it integrate into our existing IT infrastructure or will we have to get people specifically for these softwares 
+    - Employees could steal data, especially if it’s centralized into a data warehouse 
 
 - Costs
-  - At this moment there’s not an estimate of the costs associated with the project.
+Estimate the costs associated with the project.
+      Software licenses: $200 monthly 
+      Employees to manage these: $10k monthly 
 
 - Timeline
 | Week 1 | Requirements Gathering & Planning  (1. Define project goals. 2. Draft business and functional requirements.)
@@ -36,7 +43,10 @@ to explore and analyze home purchase data based on their priorities, facilitatin
 - Benefits
   - Expected benefits of the project.
     - A reliable forecast House Purchases in Florida or other State
-    - Enhanced decision-making capabilities
+    - Consistent data and improved data accuracy 
+    - Can create a personalized dashboard for the different department heads with the data that’s relevant to them 
+    - Data warehouse gives decision makers enhanced decision-making capabilities
+
 
 ### 2. Business Requirements
 - Business goals and objectives the project aims to achieve
