@@ -1,9 +1,12 @@
 # Project Readme
 
 ## A. Problem Context
-Provide a brief description of the problem you're addressing. Include any background information necessary to understand the project.
 
-*Problem description goes here.*
+	The project approaches the task of making analytical decisions about home purchases in Florida
+by examining major variables such as home prices, cost of living, crime rates, and school ratings.
+Buyers frequently have difficulty accessing and comparing data across counties and ZIP codes.
+So by gathering these factors in an interactive Power BI dashboard, the project facilitates buyers 
+to explore and analyze home purchase data based on their priorities, facilitating smarter, decisions based on data.
 
 ## B. Requirements
 
