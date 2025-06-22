@@ -9,48 +9,48 @@ Provide a brief description of the problem you're addressing. Include any backgr
 
 ### 1. Requirements Analysis
 - Business Personas
-  - List the key stakeholders and their roles.
-  - Example:
+  - Roles
     - Data Analyst: Responsible for data analysis and reporting.
-    - IT Manager: Oversees technical implementation.
+    - Leader: Make sure all business goals are met.
+    - Homebuyer
+    - Dashboard Developer: Design the dashboard in PowerBI
+
 - Risks
   - Identify potential risks and challenges.
-  - Example:
-    - Data privacy concerns
-    - Integration with existing systems
+   - Incomplete data 
+   - Data inconsistency 
+
 - Costs
-  - Estimate the costs associated with the project.
-  - Example:
-    - Software licenses: $X
-    - Hardware upgrades: $Y
+  - At this moment there’s not an estimate of the costs associated with the project.
+
 - Timeline
-  - Provide a high-level timeline for the project.
-  - Example:
-    - Phase 1: Requirements Gathering (Month 1)
-    - Phase 2: Development (Months 2-4)
-    - Phase 3: Testing and Deployment (Month 5)
+| Week 1 | Requirements Gathering & Planning  (1. Define project goals. 2. Draft business and functional requirements.)
+| Week 2 | Data Collection, Extraction & Cleaning (1. Extract housing data and storage in Azures. 2.Clean and merge datasets by ZIP/county)
+| Week 3 | Data Analysis & Modeling Design (1. Analyze key metrics (avg & media price, etc.).  2. Create comparison logic between counties/ZIPs)
+| Week 4 | Methodology, Implementation & Visualization (1. Build dashboard (PowerBI / Python). 2. Visualize results using maps and charts)
+| Week 5 | Final Presentation & Delivery ( 1.Finalize report and README documentation. 2. Upload completed files and visuals to GitHub)
+
 - Benefits
-  - Outline the expected benefits of the project.
-  - Example:
-    - Improved data accuracy
+  - Expected benefits of the project.
+    - A reliable forecast House Purchases in Florida or other State
     - Enhanced decision-making capabilities
 
 ### 2. Business Requirements
-- List the high-level business goals and objectives the project aims to achieve
- 	Can I have the avg, median price for each county
-	Can I have the avg, medium price for each neighborhood (zipCode)
-	We are only going to look at the Florida State
+- Business goals and objectives the project aims to achieve
+ - The avg & median price for each county
+ - The avg & medium price for each neighborhood (zipCode)
+ - Home Purchases in Florida
 
 ### 3. Functional Requirements
-We will use a PowerBI which will allow us to select
-- 	See then number of transactions per county take into account the year
-	See the number transaction per zip code take into account the year
-	Avg, median price for each county  take into account the year 
-	Avg median price for each zip code take into account the year
-We will have two maps 
-	1) with all the county the numbers mentioned above meaning (number of transactions, avg, median)
-	2) with all the zipcode with the number of transaction and the avg median 
-We will be using a proper chart for that
+- We will use a PowerBI which will allow us to select (Taking into account the year)
+  - Number of transactions per county
+  - Number transaction per zip code
+  - Avg, median price for each county
+  - Avg median price for each zip code
+
+- We will have two maps 
+  - One with all the county the numbers mentioned above meaning (number of transactions, avg, median)
+  - The second one with all the zipcode with the number of transaction and the avg median 
 
 ### 4. Data Requirements
 Outline the types and sources of data required for the project.
