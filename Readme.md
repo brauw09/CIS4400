@@ -29,7 +29,7 @@ to explore and analyze home purchase data based on their priorities, facilitatin
     - Employees could steal data, especially if it’s centralized into a data warehouse 
 
 - Costs
-Estimate the costs associated with the project.
+  - Estimate the costs associated with the project.
       Software licenses: $200 monthly 
       Employees to manage these: $10k monthly 
 
