@@ -98,7 +98,7 @@ Outline the types and sources of data required for the project.
      To ensure a consistency and prepares the data for the analysis.
    - **Data Warehouse & Modeling**: We structured the data using a dimensional model created in DBschema.
    - **Business Intelligence (BI)**: We used Power BI tool to create the interactive dashboards/maps that
-     are going to visualize the key metrics (avg/media prices, school rating,...) for both county and Zip code. 
+     are going to visualize the key metrics (avg/media prices, etc..) for both county and Zip code. 
 
 ### 4. Product Architecture
 - Provide an overview of the product's overall structure.
