@@ -83,13 +83,13 @@ Outline the types and sources of data required for the project.
   - ![Information Architecture Diagram](path_to_image)
 
 ### 2. Data Architecture
-Defines how data is sourced, ingested, processed, stored, and accessed during the project.
-•	Data Sources- Azure-hosted CSV file 
-•	Data Ingestion- Data is extracted using Python scripts to download CSV files and place them in Azure blob storage.
-•	Data Cleaning & Transformation- Null value handling, normalization and filtering by Florida ZIPs/counties.
-•	Data Storage- Processed data is saved into an Azure Warehouse
-•	Data Modeling- Star schema dimensional modeling, including facts and dimensions. 
-•	BI Layer / Consumption- Power BI connects directly to the warehouse via Azure SQL.
+- Defines how data is sourced, ingested, processed, stored, and accessed during the project.
+     -	Data Sources- Azure-hosted CSV file 
+     -	Data Ingestion- Data is extracted using Python scripts to download CSV files and place them in Azure blob storage.
+     -  Data Cleaning & Transformation- Null value handling, normalization and filtering by Florida ZIPs/counties.
+     -	Data Storage- Processed data is saved into an Azure Warehouse
+     -	Data Modeling- Star schema dimensional modeling, including facts and dimensions. 
+     -	BI Layer / Consumption- Power BI connects directly to the warehouse via Azure SQL.
 
 ### 3. Technical Architecture
 - Define the software and hardware systems involved in the project.
