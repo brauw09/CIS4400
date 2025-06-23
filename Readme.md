@@ -84,10 +84,12 @@ Outline the types and sources of data required for the project.
 
 ### 3. Technical Architecture
 - Define the software and hardware systems involved in the project.
-- List any key technologies, tools, or platforms used. 
-  - Example: 
-    - Python for data analysis
-    - Azure for cloud computing
+   - **Data Sources**: External data from Dolthun and a shared azure csv data file.
+   - **Data Integration**: We used for this project Python to extract, clean and merge data.
+     To ensure a consistency and prepares the data for the analysis.
+   - **Data Warehouse & Modeling**: We structured the data using a dimensional model created in DBschema.
+   - **Business Intelligence (BI)**: We used Power BI tool to create the interactive dashboards/maps that
+     are going to visualize the key metrics (avg/media prices, school rating,...) for both county and Zip code. 
 
 ### 4. Product Architecture
 - Provide an overview of the product's overall structure.
