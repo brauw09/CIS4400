@@ -34,11 +34,16 @@ Estimate the costs associated with the project.
       Employees to manage these: $10k monthly 
 
 - Timeline
-* | Week 1 | Requirements Gathering & Planning  (1. Define project goals. 2. Draft business and functional requirements.)
-* | Week 2 | Data Collection, Extraction & Cleaning (1. Extract housing data and storage in Azures. 2.Clean and merge datasets by ZIP/county)
-* | Week 3 | Data Analysis & Modeling Design (1. Analyze key metrics (avg & media price, etc.).  2. Create comparison logic between counties/ZIPs)
-* | Week 4 | Methodology, Implementation & Visualization (1. Build dashboard (PowerBI / Python). 2. Visualize results using maps and charts)
-* | Week 5 | Final Presentation & Delivery ( 1.Finalize report and README documentation. 2. Upload completed files and visuals to GitHub)
+  - **| Week 1: Requirements Gathering & Planning**
+    	- (1. Define project goals. 2. Draft business and functional requirements.)
+  - **| Week 2: Data Collection, Extraction & Cleaning**
+    	- (1. Extract housing data and storage in Azures. 2.Clean and merge datasets by ZIP/county)
+  - **| Week 3: Data Analysis & Modeling Design**
+    	- (1. Analyze key metrics (avg & media price, etc.).  2. Create comparison logic between counties/ZIPs)
+  - **| Week 4: Methodology, Implementation & Visualization**
+    	- (1. Build dashboard (PowerBI / Python). 2. Visualize results using maps and charts)
+  - **| Week 5: Final Presentation & Delivery**
+    	- ( 1.Finalize report and README documentation. 2. Upload completed files and visuals to GitHub)
 
 - Benefits
   - Expected benefits of the project.
