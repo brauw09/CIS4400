@@ -90,6 +90,7 @@ Outline the types and sources of data required for the project.
      -	Data Storage- Processed data is saved into an Azure Warehouse
      -	Data Modeling- Star schema dimensional modeling, including facts and dimensions. 
      -	BI Layer / Consumption- Power BI connects directly to the warehouse via Azure SQL.
+     -	[Data Architecture Diagram](docs/diagram/Data Architecture.png)
 
 ### 3. Technical Architecture
 - Define the software and hardware systems involved in the project.
