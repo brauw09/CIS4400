@@ -72,7 +72,7 @@ to explore and analyze home purchase data based on their priorities, facilitatin
 
 ### 4. Data Requirements
 Outline the types and sources of data required for the project.
-	https://www.dolthub.com/repositories/dolthub/us-housing-price...
+	[https://www.dolthub.com/repositories/dolthub/us-housing-price...](https://www.dolthub.com/repositories/dolthub/us-housing-prices-v2)
  
 
 ## C. Architecture
