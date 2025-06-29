@@ -80,7 +80,7 @@ Outline the types and sources of data required for the project.
 ### 1. Information Architecture
 - Describe the structure and flow of the information.
 - Include diagrams or images if necessary. 
-  - ![Information Architecture Diagram](path_to_image)
+  - [Information Architecture Diagram](https://github.com/brauw09/CIS4400/blob/main/docs/diagram/information_arc.png)
 
 ### 2. Data Architecture
 - Defines how data is sourced, ingested, processed, stored, and accessed during the project.
