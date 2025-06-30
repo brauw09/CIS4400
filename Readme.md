@@ -114,7 +114,7 @@ Outline the types and sources of data required for the project.
   - **Dimension**: include all dimensions
 
 *Include any necessary images or diagrams to clarify the architecture.*
-  - ![Dimensional Modeling Diagram](https://github.com/brauw09/CIS4400/blob/ec4dacd0222ecb15a4748557c39da5e4866918a2/docs/diagram/Star%20Modeling.png)
+  - ![Dimensional Modeling Diagram](https://github.com/brauw09/CIS4400/blob/cb929d4ecb9ed57a13373e13cdf92cc3fbd42b08/docs/diagram/Updated%20DM.png)
 
 
 ### 2. Medallion Architecture
