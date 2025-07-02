@@ -1,0 +1,39 @@
+{{ 
+    config(
+        materialized='table'
+    ) 
+}}
+
+WITH sale_cte AS (
+
+    SELECT 
+        MD5(
+            UPPER(TRIM(COALESCE(SALE_PRICE || '', ''))) || '-' ||
+            UPPER(TRIM(COALESCE(BUILDING_ASSESSED_VALUE || '', ''))) || '-' ||
+            UPPER(TRIM(COALESCE(BUILDING_APPRAISED_VALUE || '', ''))) || '-' ||
+            UPPER(TRIM(COALESCE(TOTAL_ASSESSED_VALUE || '', ''))) || '-' ||
+            UPPER(TRIM(COALESCE(TOTAL_APPRAISED_VALUE || '', '')))
+        ) AS FACT_SALES_ID,
+
+        UPPER(TRIM(COALESCE(STATE, ''))) AS PROPERTY_STATE,
+        SALE_PRICE AS PROPERTY_PRICE,
+       -- BUILDING_ASSESSED_VALUE,
+        --BUILDING_APPRAISED_VALUE,
+        BUILDING_AREA_SQFT,
+        BUILDING_NUM_STORIES,
+        BUILDING_NUM_BEDS,
+        BUILDING_NUM_BATHS,
+        --LAND_ASSESSED_VALUE,
+        --LAND_APPRAISED_VALUE,
+        --LAND_AREA_SQFT,
+        --LAND_AREA_ACRES,
+        --TOTAL_ASSESSED_VALUE,
+        --TOTAL_APPRAISED_VALUE,
+        MD5(UPPER(TRIM(COALESCE(PROPERTY_TYPE,'')))) AS PROPERTY_TYPE_ID,
+        TO_NUMBER(TO_CHAR(CAST(SALE_DATETIME AS timestamp), 'YYYYMMDD')) AS date_id,
+        MD5(UPPER(TRIM(COALESCE(STATE,''))) || '-' ||  UPPER(TRIM(COALESCE(PROPERTY_CITY,''))) || '-' ||  UPPER(TRIM(COALESCE(PROPERTY_COUNTY,''))) || '-' ||  UPPER(TRIM(COALESCE(PROPERTY_ZIP5,0)))) AS LOCATION_ID
+    FROM RAW_DATA
+)
+
+SELECT * 
+FROM sale_cte
