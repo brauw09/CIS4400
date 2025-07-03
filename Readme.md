@@ -116,17 +116,6 @@ Outline the types and sources of data required for the project.
 *Include any necessary images or diagrams to clarify the architecture.*
   - ![Dimensional Modeling Diagram](https://github.com/brauw09/CIS4400/blob/cb929d4ecb9ed57a13373e13cdf92cc3fbd42b08/docs/diagram/Updated%20DM.png)
 
-
-### 2. Medallion Architecture
-- Explain the medallion architecture and its stages: Bronze, Silver, Gold.
-- Example:
-  - **Bronze**: Raw, unprocessed data
-  - **Silver**: Cleaned and enriched data
-  - **Gold**: Aggregated, ready-for-use data
-
-*Include any necessary images or diagrams to clarify the architecture.*
-  - ![Medallion Architecture Diagram](path_to_image)
-
 ## E. Methodology and Implementation
 Describe the methodology used in the project and the steps followed during implementation.
 
