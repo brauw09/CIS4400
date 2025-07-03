@@ -114,7 +114,7 @@ Outline the types and sources of data required for the project.
   - **Dimension**: include all dimensions
 
 *Include any necessary images or diagrams to clarify the architecture.*
-  - ![Dimensional Modeling Diagram](https://github.com/brauw09/CIS4400/blob/cb929d4ecb9ed57a13373e13cdf92cc3fbd42b08/docs/diagram/Updated%20DM.png)
+  - ![Dimensional Modeling Diagram](https://github.com/brauw09/CIS4400/blob/04e03df3817d17071362d5892b37bedca7bf61a5/docs/diagram/Final%20DB%20Schema.png)
 
 ## E. Methodology and Implementation
 Describe the methodology used in the project and the steps followed during implementation.
