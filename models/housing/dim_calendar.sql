@@ -8,9 +8,8 @@ WITH date_cte AS (
      SELECT DISTINCT CAST(SALE_DATETIME AS timestamp) as date_value FROM RAW_DATA
 )
  
-SELECT
+SELECT DISTINCT
   TO_NUMBER(TO_CHAR(date_value, 'YYYYMMDD')) AS date_id,
-  date_value AS date_iso,
   CAST(EXTRACT(YEAR FROM date_value) AS INTEGER) AS year_number,
   CAST(EXTRACT(MONTH FROM date_value) AS INTEGER)  AS month_number,
   CAST(EXTRACT(DAY FROM date_value) AS INTEGER)  AS day_number,
@@ -21,4 +20,4 @@ SELECT
   DAYNAME(date_value) AS day_name,
   CAST(EXTRACT(week FROM date_value) AS INTEGER)  AS week_of_year
 FROM date_cte
- 
+order by date_id
