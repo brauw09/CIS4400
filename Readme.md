@@ -115,23 +115,30 @@ Describe the methodology used in the project and the steps followed during imple
 - Example:
   - Sprint 1: Setup and Data Collection
   - Sprint 2: Data Processing and Model Building
-- Metadata Management
+- ##### Metadata Management
   - Data Dictionary
+  	| Column Name         | Table             | Description                     |
+	|---------------------|-------------------|---------------------------------|
+	| `date_id`           | `dim_calendar`    | Date surrogate key          |
+	| `property_type_id`  | `dim_property_type` | Property type key             |
+	| `location_id`       | `dim_location`    | Location surrogate key          |
+	| `fact_sales_id`     | `fact_sales`      | Sales surrogate key |
+
   - Mapping Sources and Target Systems
-  	| Source Field         | Target Column        | Transformation                  |
-	|----------------------|----------------------|----------------------------------|
-	| `SALE_DATETIME`      | `date_id`            | `TO_CHAR(..., 'YYYYMMDD')`      |
-	| `PROPERTY_TYPE`      | `property_type_id`   | `MD5(UPPER(TRIM(...)))`         |
-	| `STATE + CITY + ZIP` | `location_id`        | Concatenation + `MD5()`         |
+  	| Source Field         | Target Column        |
+	|----------------------|----------------------|
+	| `SALE_DATETIME`      | `date_id`            |
+	| `PROPERTY_TYPE`      | `property_type_id`   |
+	| `STATE + CITY + ZIP` | `location_id`        |
 
   - List of all functions
-	- Function 1: MD5(UPPER(TRIM(...))) [Help generate surrogate keys]
-	- Function 2: TO_NUMBER(TO_CHAR(date_value, 'YYYYMMDD'))
+	- **Function 1**: MD5(UPPER(TRIM(...))) [Help generate surrogate keys]
+	- **Function 2**: TO_NUMBER(TO_CHAR(date_value, 'YYYYMMDD'))
 			EXTRACT(YEAR FROM date_value)
 			TO_CHAR(date_value, 'Month')
     			[Help extract multiple time dimensions. -Transfromation-]
-	- Function 3: MD5(UPPER(TRIM(COALESCE(STATE))) || '-' || ... ) [Concatenated and hashed multiple components]
-    	- Function 4: ROW_NUMBER() OVER (PARTITION BY LOCATION_ID ORDER BY LOCATION_ID) [Help with duplicate data]
+	- **Function 3**: MD5(UPPER(TRIM(COALESCE(STATE))) || '-' || ... ) [Concatenated and hashed multiple components]
+    	- **Function 4**: ROW_NUMBER() OVER (PARTITION BY LOCATION_ID ORDER BY LOCATION_ID) [Help with duplicate data]
 - ELT Extract Transform Load
 	- Extract: Raw data loaded into 'RAW_DATA'
    	- Load: Stored in Snowflake cloud data warehouse
