@@ -1,4 +1,4 @@
-# Project 8: Home Purchase Decision Analysis - Readme
+# Project 8: Home Purchase Decision Analysis
 
 ## A. Problem Context
 
