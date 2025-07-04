@@ -2,8 +2,7 @@
 
 ## A. Problem Context
 
-	The project approaches the task of making analytical decisions about home purchases in Florida
-by examining major variables such as home prices, cost of living, crime rates, and school ratings.
+The project approaches the task of making analytical decisions about home purchases in Florida by examining major variables such as home prices, cost of living, crime rates, and school ratings.
 Buyers frequently have difficulty accessing and comparing data across counties and ZIP codes.
 So by gathering these factors in an interactive Power BI dashboard, the project facilitates buyers 
 to explore and analyze home purchase data based on their priorities, facilitating smarter, decisions based on data.
