@@ -110,13 +110,24 @@ Outline the types and sources of data required for the project.
 ## E. Methodology and Implementation
 Describe the methodology used in the project and the steps followed during implementation.
 
-- Outline the approach taken is Agile
+- Outline the approach taken is **Agile**
 - Describe key phases, such as development, testing, deployment.
 - Sprints:
-	|**Sprint 1**| Setup and Data Collection | 1. Initialized dbt projct and GitHub respository. 2. Identified source columns and other data characteristics. |
-	|**Sprint 2**| Data Processing and Model Building | 1. Core dimension tables: 'dim_calendar', 'dim_property_type', & 'dim_location'. 2. Main fact table: 'fact_sales' |
-	|**Sprint 3**| Testing and Validation |
-	|**Sprint 4**| Deployment and Documentation |
+  	- **Sprint 1**: Setup and Data Collection
+  		1. Initialized dbt projct and GitHub respository.
+  		2. Identified source columns and other data characteristics.
+  
+	- **Sprint 2**:  Data Processing and Model Building
+		1. Core dimension tables: 'dim_calendar', 'dim_property_type', & 'dim_location'. 		2. Main fact table: 'fact_sales'.
+   
+	- **Sprint 3**:  Testing and Validation
+  		1. Testing the 'not_null' and relationship tests in dbt
+		2. Validation integrity of the transformation
+  		3. Join keys
+
+	- **Sprint 4**:  Deployment and Documentation
+   		1. Edit dbt documentation
+		2. Finalized data dictionary
 
 - ### Metadata Management
   - Data Dictionary
