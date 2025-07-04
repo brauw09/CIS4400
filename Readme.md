@@ -113,10 +113,10 @@ Describe the methodology used in the project and the steps followed during imple
 - Outline the approach taken is Agile
 - Describe key phases, such as development, testing, deployment.
 - Sprints:
-  - |**Sprint 1**| Setup and Data Collection | 1. Initialized dbt projct and GitHub respository. 2. Identified source columns and other data characteristics. |
-  - |**Sprint 2**| Data Processing and Model Building | 1. Core dimension tables: 'dim_calendar', 'dim_property_type', & 'dim_location'. 2. Main fact table: 'fact_sales' |
-  - |**Sprint 3**| Testing and Validation |
-  - |**Sprint 4**| Deployment and Documentation |
+	|**Sprint 1**| Setup and Data Collection | 1. Initialized dbt projct and GitHub respository. 2. Identified source columns and other data characteristics. |
+	|**Sprint 2**| Data Processing and Model Building | 1. Core dimension tables: 'dim_calendar', 'dim_property_type', & 'dim_location'. 2. Main fact table: 'fact_sales' |
+	|**Sprint 3**| Testing and Validation |
+	|**Sprint 4**| Deployment and Documentation |
 
 - ### Metadata Management
   - Data Dictionary
