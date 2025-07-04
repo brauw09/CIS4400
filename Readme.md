@@ -2,7 +2,7 @@
 
 ## A. Problem Context
 
-The project approaches the task of making analytical decisions about home purchases in Florida by examining major variables such as home prices, cost of living, crime rates, and school ratings.
+The project approaches the task of making analytical decisions about home purchases in Florida, North Carolina & New York by examining major variables such as home prices, year, Location (County/ZipCode), the type of the property.
 Buyers frequently have difficulty accessing and comparing data across counties and ZIP codes.
 So by gathering these factors in an interactive Power BI dashboard, the project facilitates buyers 
 to explore and analyze home purchase data based on their priorities, facilitating smarter, decisions based on data.
@@ -46,7 +46,7 @@ to explore and analyze home purchase data based on their priorities, facilitatin
 
 - Benefits
   - Expected benefits of the project.
-    - A reliable forecast House Purchases in Florida or other State
+    - A reliable forecast House Purchases in Florida, North Carolina, New York, or other State
     - Consistent data and improved data accuracy 
     - Can create a personalized dashboard for the different department heads with the data that’s relevant to them 
     - Data warehouse gives decision makers enhanced decision-making capabilities
@@ -100,19 +100,11 @@ Outline the types and sources of data required for the project.
    - **Business Intelligence (BI)**: We used Power BI tool to create the interactive dashboards/maps that
      are going to visualize the key metrics (avg/media prices, etc..) for both county and Zip code. 
 
-### 4. Product Architecture
-- Provide an overview of the product's overall structure.
-- Include any major components and how they interact.
-
 ## D. Modeling
 
 ### 1. Dimensional Modeling
-- Explain the dimensional modeling
-- Example:
   - **Facts**: describe all the facts
   - **Dimension**: include all dimensions
-
-*Include any necessary images or diagrams to clarify the architecture.*
   - ![Dimensional Modeling Diagram](https://github.com/brauw09/CIS4400/blob/04e03df3817d17071362d5892b37bedca7bf61a5/docs/diagram/Final%20DB%20Schema.png)
 
 ## E. Methodology and Implementation
