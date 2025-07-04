@@ -132,12 +132,15 @@ Describe the methodology used in the project and the steps followed during imple
 	| `STATE + CITY + ZIP` | `location_id`        |
 
   - List of all functions
+
 | Functions # | Expression                                                                                      | Purpose / Description                                   |
 |------------|--------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | **Function 1** | `MD5(UPPER(TRIM(...)))`                                                                          | Generate surrogate keys by normalizing and hashing data. |
 | **Function 2** | `TO_NUMBER(TO_CHAR(date_value, 'YYYYMMDD'))`<br>`EXTRACT(YEAR FROM date_value)`<br>`TO_CHAR(date_value, 'Month')` | Help Extract multiple time dimensions (year, month, date ID). |
 | **Function 3** | `MD5(UPPER(TRIM(COALESCE(STATE))) || '-' || ... )`                                              | Concatenate and hash multiple location components.       |
 | **Function 4** | `ROW_NUMBER() OVER (PARTITION BY LOCATION_ID ORDER BY LOCATION_ID)`                            | Help Identify and manage duplicate rows      |
+
+
 - ELT Extract Transform Load
 	- Extract: Raw data loaded into 'RAW_DATA'
    	- Load: Stored in Snowflake cloud data warehouse
