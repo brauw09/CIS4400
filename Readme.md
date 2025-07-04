@@ -118,13 +118,30 @@ Describe the methodology used in the project and the steps followed during imple
 - Metadata Management
   - Data Dictionary
   - Mapping Sources and Target Systems
+  	| Source Field         | Target Column        | Transformation                  |
+	|----------------------|----------------------|----------------------------------|
+	| `SALE_DATETIME`      | `date_id`            | `TO_CHAR(..., 'YYYYMMDD')`      |
+	| `PROPERTY_TYPE`      | `property_type_id`   | `MD5(UPPER(TRIM(...)))`         |
+	| `STATE + CITY + ZIP` | `location_id`        | Concatenation + `MD5()`         |
+
   - List of all functions
-	- Function 1 
-	- Function 2
-	- Function 3
-- ETL Extract Load Transform
+	- Function 1: MD5(UPPER(TRIM(...))) [Help generate surrogate keys]
+	- Function 2: TO_NUMBER(TO_CHAR(date_value, 'YYYYMMDD'))
+			EXTRACT(YEAR FROM date_value)
+			TO_CHAR(date_value, 'Month')
+    			[Help extract multiple time dimensions. -Transfromation-]
+	- Function 3: MD5(UPPER(TRIM(COALESCE(STATE))) || '-' || ... ) [Concatenated and hashed multiple components]
+    	- Function 4: ROW_NUMBER() OVER (PARTITION BY LOCATION_ID ORDER BY LOCATION_ID) [Help with duplicate data]
 - ELT Extract Transform Load
-- Tools 
+	- Extract: Raw data loaded into 'RAW_DATA'
+   	- Load: Stored in Snowflake cloud data warehouse
+   	- Transform: Modeled into dimension and fact tables using dbt
+- Tools
+	- DBT
+ 	- GitHub
+  	- SQL
+  	- PowerBI
+
 
 ## F. Visualization
 Provide details of the visualizations created for the project.
