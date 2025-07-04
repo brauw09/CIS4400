@@ -115,7 +115,7 @@ Describe the methodology used in the project and the steps followed during imple
 - Example:
   - Sprint 1: Setup and Data Collection
   - Sprint 2: Data Processing and Model Building
-- ##### Metadata Management
+- ### Metadata Management
   - Data Dictionary
   	| Column Name         | Table             | Description                     |
 	|---------------------|-------------------|---------------------------------|
@@ -132,13 +132,12 @@ Describe the methodology used in the project and the steps followed during imple
 	| `STATE + CITY + ZIP` | `location_id`        |
 
   - List of all functions
-	- **Function 1**: MD5(UPPER(TRIM(...))) [Help generate surrogate keys]
-	- **Function 2**: TO_NUMBER(TO_CHAR(date_value, 'YYYYMMDD'))
-			EXTRACT(YEAR FROM date_value)
-			TO_CHAR(date_value, 'Month')
-    			[Help extract multiple time dimensions. -Transfromation-]
-	- **Function 3**: MD5(UPPER(TRIM(COALESCE(STATE))) || '-' || ... ) [Concatenated and hashed multiple components]
-    	- **Function 4**: ROW_NUMBER() OVER (PARTITION BY LOCATION_ID ORDER BY LOCATION_ID) [Help with duplicate data]
+| Functions # | Expression                                                                                      | Purpose / Description                                   |
+|------------|--------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| **Function 1** | `MD5(UPPER(TRIM(...)))`                                                                          | Generate surrogate keys by normalizing and hashing data. |
+| **Function 2** | `TO_NUMBER(TO_CHAR(date_value, 'YYYYMMDD'))`<br>`EXTRACT(YEAR FROM date_value)`<br>`TO_CHAR(date_value, 'Month')` | Help Extract multiple time dimensions (year, month, date ID). |
+| **Function 3** | `MD5(UPPER(TRIM(COALESCE(STATE))) || '-' || ... )`                                              | Concatenate and hash multiple location components.       |
+| **Function 4** | `ROW_NUMBER() OVER (PARTITION BY LOCATION_ID ORDER BY LOCATION_ID)`                            | Help Identify and manage duplicate rows      |
 - ELT Extract Transform Load
 	- Extract: Raw data loaded into 'RAW_DATA'
    	- Load: Stored in Snowflake cloud data warehouse
