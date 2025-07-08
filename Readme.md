@@ -98,7 +98,8 @@ Outline the types and sources of data required for the project.
      To ensure a consistency and prepares the data for the analysis.
    - **Data Warehouse & Modeling**: We structured the data using a dimensional model created in DBschema.
    - **Business Intelligence (BI)**: We used Power BI tool to create the interactive dashboards/maps that
-     are going to visualize the key metrics (avg prices, etc..) for both county and Zip code. 
+     are going to visualize the key metrics (avg prices, etc..) for both county and Zip code.
+   -![Technical Architecture Diagram](https://github.com/brauw09/CIS4400/blob/47bec11aeef398e81a570bf60d99f22ca512a148/docs/diagram/Technical%20Architecture.png)
 
 ## D. Modeling
 
