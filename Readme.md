@@ -13,7 +13,7 @@ to explore and analyze home purchase data based on their priorities, facilitatin
 - Business Personas
   - Roles
     - Data Analyst: Responsible for data analysis and reporting.
-    - Homebuyer
+    - Homebuyers
     - Dashboard Developer: Design the dashboard in PowerBI
     - IT Project Manager: Overseas warehouse implementation.
     - Data Warehouse Specialist: Implements and manages the warehouse 
