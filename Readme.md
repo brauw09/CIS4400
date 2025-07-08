@@ -54,20 +54,20 @@ to explore and analyze home purchase data based on their priorities, facilitatin
 
 ### 2. Business Requirements
 - Business goals and objectives the project aims to achieve
- - The avg & median price for each county
- - The avg & medium price for each neighborhood (zipCode)
+ - The avg price for each county
+ - The avg price for each neighborhood (zipCode)
  - Home Purchases in Florida
 
 ### 3. Functional Requirements
 - We will use a PowerBI which will allow us to select (Taking into account the year)
   - Number of transactions per county
   - Number transaction per zip code
-  - Avg, median price for each county
-  - Avg median price for each zip code
+  - Avg price for each county
+  - Avg price for each zip code
 
 - We will have two maps 
-  - One with all the county the numbers mentioned above meaning (number of transactions, avg, median)
-  - The second one with all the zipcode with the number of transaction and the avg median 
+  - One with all the county the numbers mentioned above meaning (number of transactions, avg)
+  - The second one with all the zipcode with the number of transaction and the avg
 
 ### 4. Data Requirements
 Outline the types and sources of data required for the project.
