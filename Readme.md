@@ -38,7 +38,7 @@ to explore and analyze home purchase data based on their priorities, facilitatin
   - **Week 2: Data Collection, Extraction & Cleaning**
     	- (1. Extract housing data and storage in Azures. 2.Clean and merge datasets by ZIP/county)
   - **Week 3: Data Analysis & Modeling Design**
-    	- (1. Analyze key metrics (avg & media price, etc.).  2. Create comparison logic between counties/ZIPs)
+    	- (1. Analyze key metrics (avg etc.).  2. Create comparison logic between counties/ZIPs)
   - **Week 4: Methodology, Implementation & Visualization**
     	- (1. Build dashboard (PowerBI / Python). 2. Visualize results using maps and charts)
   - **Week 5: Final Presentation & Delivery**
@@ -98,7 +98,7 @@ Outline the types and sources of data required for the project.
      To ensure a consistency and prepares the data for the analysis.
    - **Data Warehouse & Modeling**: We structured the data using a dimensional model created in DBschema.
    - **Business Intelligence (BI)**: We used Power BI tool to create the interactive dashboards/maps that
-     are going to visualize the key metrics (avg/media prices, etc..) for both county and Zip code. 
+     are going to visualize the key metrics (avg prices, etc..) for both county and Zip code. 
 
 ## D. Modeling
 
