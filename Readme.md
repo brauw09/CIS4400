@@ -172,7 +172,7 @@ Describe the methodology used in the project and the steps followed during imple
 We made visualizations using PowerBI.
 
 <img width="1920" height="1080" alt="Screenshot (80199)" src="https://github.com/user-attachments/assets/ac546765-d65d-4cfe-8fc3-4bd5623c3de7" />
-<img width="1920" height="1080" alt="Screenshot (80200)" src="https://github.com/user-attachments/assets/a198be92-b0f2-4f7d-ba70-01c67d14b1df" />
+<https://github.com/brauw09/CIS4400/blob/8a06c3c39e9b5cb8291a7cc4ca81777070d97f43/docs/diagram/Screenshot%202025-07-11%20090822.png />
 <img width="1920" height="1080" alt="Screenshot (80201)" src="https://github.com/user-attachments/assets/843c5dc0-a949-4eff-b776-a8d4f3f96a54" />
 <img width="1920" height="1080" alt="Screenshot (80202)" src="https://github.com/user-attachments/assets/e9e6f9c9-d78e-4324-bee3-210e7a3c7d51" />
 
