@@ -124,14 +124,10 @@ Describe the methodology used in the project and the steps followed during imple
    
 	- **Sprint 3**:  Testing and Validation
   		1. Cleaning all the 'null' columns and empty values
-
-                2. Testing the 'not_null' and relationship tests in dbt
-       
-                3. Removing all duplicate keys
-       
-		4. Validation integrity of the transformation
-  
-  		5. Join keys
+    2. Testing the 'not_null' and relationship tests in dbt
+    3. Removing all duplicate keys
+    4. Validation integrity of the transformation
+    5. Join keys
 
 	- **Sprint 4**:  Deployment and Documentation
    		1. Edit dbt documentation
