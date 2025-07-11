@@ -179,6 +179,8 @@ We made visualizations using PowerBI.
 
 ## G. Insights
 Here are the key insights gained from our project.
+- New York had the highest average property prices, with counties like New York being the most expensive. Florida is also pretty expensive. While North Carolina is significantly cheaper, making it potentially attractive for buyers on a budget. 
+
 
 
 ## H. Conclusion
