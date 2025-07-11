@@ -123,9 +123,11 @@ Describe the methodology used in the project and the steps followed during imple
 		2. Main fact table: 'fact_sales'.
    
 	- **Sprint 3**:  Testing and Validation
-  		1. Testing the 'not_null' and relationship tests in dbt
-		2. Validation integrity of the transformation
-  		3. Join keys
+  		1. Cleaning all the 'null' columns and empty values
+                2. Testing the 'not_null' and relationship tests in dbt
+                3. Removing all duplicate keys
+		4. Validation integrity of the transformation
+  		5. Join keys
 
 	- **Sprint 4**:  Deployment and Documentation
    		1. Edit dbt documentation
