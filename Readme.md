@@ -169,28 +169,20 @@ Describe the methodology used in the project and the steps followed during imple
 
 
 ## F. Visualization
-Provide details of the visualizations created for the project.
+We made visualizations using PowerBI.
+4
 
-- Include charts, graphs, and any other visual representation of the data.
-  - ![Visualization Example](path_to_image)
-- Mention any libraries or tools used for visualization (e.g., Matplotlib, Power BI).
 
 ## G. Insights
-Highlight any key insights gained from the project.
+Here are the key insights gained from our project.
 
-- Provide an overview of what was learned or discovered through data analysis.
-- Example:
-  - High correlation between customer satisfaction and response time.
-  - Significant opportunity for cost reduction in supply chain operations.
 
 ## H. Conclusion
-Summarize the outcomes of the project and any potential next steps.
+Here is a summary of the outcomes of the project and our potential next steps. 
+- We achieved the extraction, transformation, loading, and visualization of the dataset.
+- The results allow users to know the average price in the county and zip code in the states of New York, North Carolina, and Florida.
+- Future work may include data on: crime rate, school ranking, public transportation, and groceries suppliers. This will allow even more holistic and better decision making for home buying. 
 
-- What was achieved?
-- How can the results be used moving forward?
-- Example:
-  - The project successfully reduced costs by 20% through process automation.
-  - Future work may include expanding the solution to new departments.
 
 ## I. References
 - Provide a list of all references used in the project, formatted according to MLA style.
